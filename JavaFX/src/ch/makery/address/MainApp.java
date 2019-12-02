@@ -61,7 +61,7 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("AddressApp");
-        this.primaryStage.getIcons().add(new Image("file:img/icon.png"));
+        this.primaryStage.getIcons().add(new Image("file:resources/images/icon.png"));
         initRootLayout();
 
         showPersonOverview();
