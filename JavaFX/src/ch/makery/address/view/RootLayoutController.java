@@ -37,6 +37,14 @@ public class RootLayoutController {
         mainApp.getPersonData().clear();
         mainApp.setPersonFilePath(null);
     }
+    
+    /**
+     * Opens the birthday statistics.
+     */
+    @FXML
+    private void handleShowBirthdayStatistics() {
+      mainApp.showBirthdayStatistics();
+    }
 
     /**
      * Opens a FileChooser to let the user select an address book to load.
